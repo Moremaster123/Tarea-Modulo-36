@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Productos de Café Aurora: bebidas de café, panadería artesanal y café en grano.">
+    <title>Productos | Café Aurora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Café Aurora, ir al inicio">Café Aurora</a>
+        <nav aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" aria-current="page">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <h1>Nuestros productos</h1>
+        <p>Todo se prepara al momento. Los precios están en pesos mexicanos e incluyen IVA.</p>
+
+        <section aria-labelledby="titulo-destacados">
+            <h2 id="titulo-destacados">Destacados</h2>
+            <div class="cards">
+                <article class="card product">
+                    <img src="img/taza-cafe.svg" alt="Taza de café humeante sobre un plato" width="320" height="240">
+                    <h3><span lang="en">Flat white</span></h3>
+                    <p>Doble <span lang="it">espresso</span> con leche texturizada y una capa fina de espuma.</p>
+                    <p class="price">$65.00</p>
+                </article>
+                <article class="card product">
+                    <img src="img/croissant.svg" alt="Croissant dorado recién horneado" width="320" height="240">
+                    <h3><span lang="fr">Croissant</span> de mantequilla</h3>
+                    <p>Hojaldre de 27 capas, horneado cada mañana.</p>
+                    <p class="price">$48.00</p>
+                </article>
+                <article class="card product">
+                    <img src="img/bolsa-cafe.svg" alt="Bolsa de café en grano con la etiqueta Aurora" width="320" height="240">
+                    <h3>Café en grano 340 g</h3>
+                    <p>Tueste medio de Coatepec, Veracruz. Notas de chocolate y nuez.</p>
+                    <p class="price">$240.00</p>
+                </article>
+            </div>
+        </section>
+
+        <section aria-labelledby="titulo-menu">
+            <h2 id="titulo-menu">Menú completo</h2>
+            <table>
+                <caption>Bebidas y sus precios por tamaño</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Bebida</th>
+                        <th scope="col">Chico</th>
+                        <th scope="col">Grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Americano</th>
+                        <td>$40.00</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Capuchino</th>
+                        <td>$55.00</td>
+                        <td>$65.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><span lang="en">Cold brew</span></th>
+                        <td>$60.00</td>
+                        <td>$72.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <address>
+            Av. Reforma 123, Ciudad de México ·
+            <a href="mailto:hola@cafeaurora.example">hola@cafeaurora.example</a>
+        </address>
+        <p><small>© 2026 Café Aurora. Todos los derechos reservados.</small></p>
+    </footer>
+</body>
+</html>

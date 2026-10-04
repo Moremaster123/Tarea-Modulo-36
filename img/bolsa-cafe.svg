@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240">
+  <rect width="320" height="240" rx="16" fill="#f3e3cf"/>
+  <ellipse cx="160" cy="214" rx="90" ry="10" fill="#d9c2a5"/>
+  <path d="M100 50h120l12 160H88z" fill="#6b3410"/>
+  <path d="M100 50h120l-6-26H106z" fill="#8a6f5a"/>
+  <rect x="116" y="96" width="88" height="72" rx="8" fill="#fffaf3"/>
+  <text x="160" y="126" font-family="Georgia, serif" font-size="18" font-weight="700" text-anchor="middle" fill="#6b3410">Aurora</text>
+  <ellipse cx="160" cy="146" rx="10" ry="14" fill="#6b3410" transform="rotate(30 160 146)"/>
+  <path d="M154 136c8 6 4 14 12 20" fill="none" stroke="#fffaf3" stroke-width="2"/>
+</svg>

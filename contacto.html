@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a Café Aurora: envíanos tus dudas, pedidos o comentarios.">
+    <title>Contacto | Café Aurora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Café Aurora, ir al inicio">Café Aurora</a>
+        <nav aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <h1>Contacto</h1>
+        <p>
+            Escríbenos y te respondemos en menos de 24 horas.
+            Los campos marcados con <span aria-hidden="true">*</span><span class="visually-hidden">asterisco</span> son obligatorios.
+        </p>
+
+        <form id="form-contacto" class="form" action="#" method="post" novalidate>
+            <fieldset>
+                <legend>Tus datos</legend>
+
+                <div class="field">
+                    <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Correo electrónico <span aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" autocomplete="email" aria-describedby="ayuda-email" required>
+                    <p id="ayuda-email" class="hint">Ejemplo: nombre@correo.com</p>
+                </div>
+
+                <div class="field">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tu mensaje</legend>
+
+                <div class="field">
+                    <label for="asunto">Asunto <span aria-hidden="true">*</span></label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="pedido">Pedido</option>
+                        <option value="evento">Servicio para eventos</option>
+                        <option value="comentario">Comentario o sugerencia</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <div class="field field-check">
+                    <input type="checkbox" id="boletin" name="boletin">
+                    <label for="boletin">Quiero recibir el <span lang="en">newsletter</span> mensual</label>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="button">Enviar mensaje</button>
+
+            <p id="form-estado" class="form-status" role="status"></p>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <address>
+            Av. Reforma 123, Ciudad de México ·
+            <a href="mailto:hola@cafeaurora.example">hola@cafeaurora.example</a>
+        </address>
+        <p><small>© 2026 Café Aurora. Todos los derechos reservados.</small></p>
+    </footer>
+
+    <script src="js/contacto.js"></script>
+</body>
+</html>

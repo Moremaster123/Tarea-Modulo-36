@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Aurora: cafetería de especialidad con café de origen mexicano y panadería artesanal.">
+    <title>Inicio | Café Aurora</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Café Aurora, ir al inicio">Café Aurora</a>
+        <nav aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section class="hero" aria-labelledby="titulo-hero">
+            <div class="hero-text">
+                <h1 id="titulo-hero">Café de especialidad, tostado en casa</h1>
+                <p>
+                    Seleccionamos granos de pequeños productores de Veracruz, Chiapas y Oaxaca
+                    para que tu <span lang="en">coffee break</span> sea el mejor momento del día.
+                </p>
+                <a class="button" href="productos.html">Ver productos</a>
+            </div>
+            <img src="img/taza-cafe.svg" alt="Taza de café humeante sobre un plato" width="320" height="240">
+        </section>
+
+        <section aria-labelledby="titulo-nosotros">
+            <h2 id="titulo-nosotros">Nuestra historia</h2>
+            <p>
+                Abrimos en 2015 con una sola máquina y una idea sencilla: servir café honesto.
+                Nuestro lema viene del italiano, <q lang="it">il caffè è un piacere</q>,
+                y lo aplicamos en cada taza.
+            </p>
+        </section>
+
+        <section aria-labelledby="titulo-ventajas">
+            <h2 id="titulo-ventajas">¿Por qué elegirnos?</h2>
+            <ul class="cards">
+                <li class="card">
+                    <h3>Origen trazable</h3>
+                    <p>Conocemos a cada productor y pagamos un precio justo por su cosecha.</p>
+                </li>
+                <li class="card">
+                    <h3>Tueste semanal</h3>
+                    <p>Tostamos lotes pequeños cada semana para garantizar frescura.</p>
+                </li>
+                <li class="card">
+                    <h3>Panadería propia</h3>
+                    <p>Horneamos todos los días desde las 6 de la mañana.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="titulo-opiniones">
+            <h2 id="titulo-opiniones">Lo que dicen nuestros clientes</h2>
+            <figure class="quote">
+                <blockquote>
+                    <p>El mejor capuchino de la colonia y un servicio muy amable.</p>
+                </blockquote>
+                <figcaption>
+                    Mariana R.
+                    <span class="stars" role="img" aria-label="Calificación: 5 de 5 estrellas">★★★★★</span>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <address>
+            Av. Reforma 123, Ciudad de México ·
+            <a href="mailto:hola@cafeaurora.example">hola@cafeaurora.example</a>
+        </address>
+        <p><small>© 2026 Café Aurora. Todos los derechos reservados.</small></p>
+    </footer>
+</body>
+</html>
